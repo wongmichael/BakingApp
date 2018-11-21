@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.example.mike.bakingapp.dummy.DummyContent;
+import com.example.mike.bakingapp.model.DummyContent;
 
 /**
  * A fragment representing a single Item detail screen.
