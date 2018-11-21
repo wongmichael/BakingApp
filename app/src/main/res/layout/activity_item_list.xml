@@ -20,15 +20,19 @@
             app:popupTheme="@style/AppTheme.PopupOverlay" />
 
     </android.support.design.widget.AppBarLayout>
-
-    <FrameLayout
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recipes_list_fragment"
+        android:name="com.example.mike.bakingapp."/>
+<!--    <FrameLayout
         android:id="@+id/frameLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <include layout="@layout/item_list" />
-    </FrameLayout>
+    </FrameLayout>-->
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
